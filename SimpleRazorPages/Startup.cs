@@ -18,7 +18,7 @@ namespace SimpleRazorPages
             app.UseExceptionHandler("/Error");
             app.UseStaticFiles();
             app.UseRouting(); // used to find razor page endpoints
-            app.UseEndPoints(endpoints =>
+            app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
             });
