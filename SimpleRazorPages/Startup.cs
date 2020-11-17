@@ -14,9 +14,10 @@ namespace SimpleRazorPages
         public void Configure(IApplicationBuilder app)
         {
             // All methods that add middleware begin with "Using"
+            // They are all also called in the literal order listed here
             app.UseExceptionHandler("/Error");
             app.UseStaticFiles();
-            app.UseRouting();
+            app.UseRouting(); // used to find razor page endpoints
             app.UseEndPoints(endpoints =>
             {
                 endpoints.MapRazorPages();
