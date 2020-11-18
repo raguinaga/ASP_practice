@@ -15,9 +15,12 @@ namespace SimpleRazorPages
         {
             // All methods that add middleware begin with "Using"
             // They are all also called in the literal order listed here
+            app.UseWelcomePage("/");
             app.UseExceptionHandler("/Error");
             app.UseStaticFiles();
             app.UseRouting(); // used to find razor page endpoints
+            // requests for "/" will never reach the pipeline here because
+            // they are caught by the welcome page middleware above
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
