@@ -5,11 +5,9 @@ namespace SimpleRazorPages
 
     public class Startup
     {
-        public void ConfigureServices(IServiceCollection services)
-        {
+        public void ConfigureServices(IServiceCollection services) =>
             // required to use razor pages
             services.AddRazorPages();
-        }
 
         public void Configure(IApplicationBuilder app)
         {
