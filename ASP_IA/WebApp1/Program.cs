@@ -21,7 +21,7 @@ namespace WebApp1
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>();
+                    _ = webBuilder.UseStartup<Startup>();
                 });
     }
 }
