@@ -4,7 +4,8 @@ namespace StaticFiles
 
     public class Startup
     { 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        /* ASP automatically adds a error handling end point 
+         * without any intervention */
         public void Configure(IApplicationBuilder app) => _ = app.UseStaticFiles();
     }
 }
