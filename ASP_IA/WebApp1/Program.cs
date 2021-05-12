@@ -14,7 +14,9 @@ namespace WebApp1
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            CreateHostBuilder(args) // Returns an IHostBuilder
+            .Build() // IHost Builder builds IHost
+            .Run();  // IHost is run (AKA Kestrel server)
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
