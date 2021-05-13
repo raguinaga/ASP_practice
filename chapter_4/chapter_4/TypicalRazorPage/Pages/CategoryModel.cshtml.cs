@@ -5,12 +5,12 @@ namespace TypicalRazorPage.Pages
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.RazorPages;
 
-    public class CategoryModelModel : PageModel
+    public class CategoryModel : PageModel
     {
         private readonly ToDoService service;
         public List<ToDoListModel> Items { get; set; }
 
-        public CategoryModelModel(ToDoService service) => this.service = service;
+        public CategoryModel(ToDoService service) => this.service = service;
         
         public ActionResult OnGet(string category)
         {
