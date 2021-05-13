@@ -14,10 +14,14 @@ namespace TypicalRazorPage.Pages
     public class CategoryModel : PageModel
     {
         private readonly ToDoService service;
+
+        // This is the view of the MVC
         public List<ToDoListModel> Items { get; set; }
 
+        // This is the Model of the MVC
         public CategoryModel(ToDoService service) => this.service = service;
         
+        // This is the controller of the MVC
         public ActionResult OnGet(string category)
         {
             Items = this.service.GetItemsForCategory(category);
