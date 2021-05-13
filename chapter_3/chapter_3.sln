@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleRazorPage", "SimpleRa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevExceptionPage", "DevExceptionPage\DevExceptionPage.csproj", "{BB9895BB-1333-4D1D-BD33-3E41024CC29E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatusCodePages", "StatusCodePages\StatusCodePages.csproj", "{0B009DBF-F296-4341-A87F-EEFE3C178639}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,18 @@ Global
 		{BB9895BB-1333-4D1D-BD33-3E41024CC29E}.Release|x64.Build.0 = Release|Any CPU
 		{BB9895BB-1333-4D1D-BD33-3E41024CC29E}.Release|x86.ActiveCfg = Release|Any CPU
 		{BB9895BB-1333-4D1D-BD33-3E41024CC29E}.Release|x86.Build.0 = Release|Any CPU
+		{0B009DBF-F296-4341-A87F-EEFE3C178639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B009DBF-F296-4341-A87F-EEFE3C178639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B009DBF-F296-4341-A87F-EEFE3C178639}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0B009DBF-F296-4341-A87F-EEFE3C178639}.Debug|x64.Build.0 = Debug|Any CPU
+		{0B009DBF-F296-4341-A87F-EEFE3C178639}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0B009DBF-F296-4341-A87F-EEFE3C178639}.Debug|x86.Build.0 = Debug|Any CPU
+		{0B009DBF-F296-4341-A87F-EEFE3C178639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B009DBF-F296-4341-A87F-EEFE3C178639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B009DBF-F296-4341-A87F-EEFE3C178639}.Release|x64.ActiveCfg = Release|Any CPU
+		{0B009DBF-F296-4341-A87F-EEFE3C178639}.Release|x64.Build.0 = Release|Any CPU
+		{0B009DBF-F296-4341-A87F-EEFE3C178639}.Release|x86.ActiveCfg = Release|Any CPU
+		{0B009DBF-F296-4341-A87F-EEFE3C178639}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
