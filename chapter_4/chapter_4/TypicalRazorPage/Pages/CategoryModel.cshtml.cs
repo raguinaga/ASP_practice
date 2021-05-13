@@ -5,6 +5,12 @@ namespace TypicalRazorPage.Pages
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.RazorPages;
 
+    /* This class is the central controller of the razor page,
+     * it accepts data (in the OnGet category param)
+     * it calls out to the biz logic (the ToDoService) and passes
+     * data to the razor view (with the Items list) for razor
+     * to generate the appropriate html
+     */
     public class CategoryModel : PageModel
     {
         private readonly ToDoService service;
