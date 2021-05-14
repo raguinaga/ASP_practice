@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypicalRazorPage", "Typical
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcToDoService", "MvcToDoService\MvcToDoService.csproj", "{70005B80-A732-4943-8DDC-70DC65C7B308}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageHandlers", "PageHandlers\PageHandlers.csproj", "{EC3F7031-FED7-4128-AB9F-2574947818DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{70005B80-A732-4943-8DDC-70DC65C7B308}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70005B80-A732-4943-8DDC-70DC65C7B308}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70005B80-A732-4943-8DDC-70DC65C7B308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC3F7031-FED7-4128-AB9F-2574947818DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3F7031-FED7-4128-AB9F-2574947818DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3F7031-FED7-4128-AB9F-2574947818DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3F7031-FED7-4128-AB9F-2574947818DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
