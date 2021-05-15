@@ -25,11 +25,11 @@ namespace Routing_Examples.Pages
 
         public void OnGet()
         {
-            // Demonstrates link generation
+            // Demonstrates link generation, now other middleware can use these urls
             var url1 = Url.Page("ProductDetails/Index", new {name = "big-widget"});
             var url2 = link.GetPathByPage("/ProductDetails/Index", values: new {name = "big-widget"});
             var url3 = link.GetPathByPage(HttpContext, "/ProductDetails/Index", values: new {name = "big-widget"});
-            var url4 = this.link.GetUriByPage(
+            var url4 = link.GetUriByPage(
                 page: "/ProductDetails/Index",
                 handler: null,
                 values: new {name = "big-widget"},
@@ -50,9 +50,6 @@ namespace Routing_Examples.Pages
             if (ModelState.IsValid)
             {
                 Results = productService.Search(SearchTerm, StringComparison.OrdinalIgnoreCase);
-            }
-            {
-                
             }
         }
     }
