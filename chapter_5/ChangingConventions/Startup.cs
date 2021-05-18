@@ -25,14 +25,17 @@ namespace ChangingConventions
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // Razor Page options can be used to customize the conventions used by Razor pages
             services.AddRazorPages().AddRazorPagesOptions(opts =>
             {
+                // Here we register our transformer as convention, we also add a route convention for a single page
                 opts.Conventions.Add(new PageRouteTransformerConvention(new KebabCaseParameterTransformer()));
                 opts.Conventions.AddPageRoute("/ProductDetails/Search", "search-products");
             });
 
             services.Configure<RouteOptions>(options =>
             {
+                // Here we change the route options used to generate URLs for the entire webapp
                 options.AppendTrailingSlash = true;
                 options.LowercaseUrls = true;
                 options.LowercaseQueryStrings = true;
