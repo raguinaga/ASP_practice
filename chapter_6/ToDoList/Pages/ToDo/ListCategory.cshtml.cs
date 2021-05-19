@@ -8,10 +8,11 @@ namespace ToDoList.Pages.ToDo
 {
     public class ListCategory : PageModel
     {
+        // This annotation defines a binding model as a property of this controller
         [BindProperty(SupportsGet = true)]
-        public InputModel Input { get; set; }
+        public InputModel Input { get; init; }
         
-        public IEnumerable<Task> Tasks { get; set; }
+        public IEnumerable<Task> Tasks { get; private set; }
         
         public IActionResult OnGet()
         {
@@ -19,20 +20,20 @@ namespace ToDoList.Pages.ToDo
             {
                 return BadRequest(ModelState);
             }
-            
+
             // TODO: Validate parameters
             var service = new ToDoService();
             Tasks = service.GetToDoItems(Input.Category, Input.Username).Select(x => new Task(x.Number, x.Title));
             return Page();
         }
-        
-        public class InputModel
+
+        public record InputModel
         {
             [Required]
-            public string Username { get; set; }
+            public string Username { get; init; }
             
             [Required]
-            public string Category { get; set; }
+            public string Category { get; init; }
         }
         
         public class Task
@@ -43,8 +44,8 @@ namespace ToDoList.Pages.ToDo
                 Description = description;
             }
             
-            public int Id { get; }
-            public string Description { get; set; }
+            public int Id { get; init; }
+            public string Description { get; init; }
         }
     }
 }
