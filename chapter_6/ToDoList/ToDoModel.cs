@@ -1,10 +1,10 @@
 ﻿namespace ToDoList
 {
-    public class ToDoModel
+    public record ToDoModel
     {
-        public int Number { get; set; }
-        public string Title { get; set; }
-        public string Login { get; set; }
-        public string State { get; set; }
+        public int Number { get; init; }
+        public string Title { get; init; }
+        public string Login { get; init; }
+        public string State { get; init; }
     }
 }
