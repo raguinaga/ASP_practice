@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "ToDoList\ToDoLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditProduct", "EditProduct\EditProduct.csproj", "{51DBBE98-977F-4DB0-8C5D-CC3BDD080AEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorBinding", "CalculatorBinding\CalculatorBinding.csproj", "{E4EFC37A-7B29-4486-97FC-CB2E98A5791B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{51DBBE98-977F-4DB0-8C5D-CC3BDD080AEA}.Release|x64.Build.0 = Release|Any CPU
 		{51DBBE98-977F-4DB0-8C5D-CC3BDD080AEA}.Release|x86.ActiveCfg = Release|Any CPU
 		{51DBBE98-977F-4DB0-8C5D-CC3BDD080AEA}.Release|x86.Build.0 = Release|Any CPU
+		{E4EFC37A-7B29-4486-97FC-CB2E98A5791B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4EFC37A-7B29-4486-97FC-CB2E98A5791B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4EFC37A-7B29-4486-97FC-CB2E98A5791B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E4EFC37A-7B29-4486-97FC-CB2E98A5791B}.Debug|x64.Build.0 = Debug|Any CPU
+		{E4EFC37A-7B29-4486-97FC-CB2E98A5791B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E4EFC37A-7B29-4486-97FC-CB2E98A5791B}.Debug|x86.Build.0 = Debug|Any CPU
+		{E4EFC37A-7B29-4486-97FC-CB2E98A5791B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4EFC37A-7B29-4486-97FC-CB2E98A5791B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4EFC37A-7B29-4486-97FC-CB2E98A5791B}.Release|x64.ActiveCfg = Release|Any CPU
+		{E4EFC37A-7B29-4486-97FC-CB2E98A5791B}.Release|x64.Build.0 = Release|Any CPU
+		{E4EFC37A-7B29-4486-97FC-CB2E98A5791B}.Release|x86.ActiveCfg = Release|Any CPU
+		{E4EFC37A-7B29-4486-97FC-CB2E98A5791B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
