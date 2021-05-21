@@ -1,8 +1,8 @@
-﻿@page
+﻿@page "{number: int}"
 @model CalculatorBinding.Pages.CalculateSquare
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Calculate Square";
 }
 
 <!DOCTYPE html>
@@ -12,8 +12,7 @@
     <title></title>
 </head>
 <body>
-<div>
-    
-</div>
+<h1>Calculating Squares</h1>
+    <p>The Sqaure of @Model.Input is @Model.Square</p>
 </body>
 </html>
