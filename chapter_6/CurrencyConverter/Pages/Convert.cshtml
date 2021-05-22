@@ -1,8 +1,8 @@
-@page
+@page "{currencyIn}/{currencyOut}"
 @model CurrencyConverter.Pages.Convert
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Convert Currency";
 }
 
 <!DOCTYPE html>
@@ -12,8 +12,7 @@
     <title></title>
 </head>
 <body>
-<div>
-    
-</div>
+<h1>Currency Out</h1>
+<p>@Model.Values</p>
 </body>
 </html>
