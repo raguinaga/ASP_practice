@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditProduct", "EditProduct\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorBinding", "CalculatorBinding\CalculatorBinding.csproj", "{E4EFC37A-7B29-4486-97FC-CB2E98A5791B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter", "CurrencyConverter\CurrencyConverter.csproj", "{98AE8D49-531B-42FD-8830-83030244888A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{E4EFC37A-7B29-4486-97FC-CB2E98A5791B}.Release|x64.Build.0 = Release|Any CPU
 		{E4EFC37A-7B29-4486-97FC-CB2E98A5791B}.Release|x86.ActiveCfg = Release|Any CPU
 		{E4EFC37A-7B29-4486-97FC-CB2E98A5791B}.Release|x86.Build.0 = Release|Any CPU
+		{98AE8D49-531B-42FD-8830-83030244888A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98AE8D49-531B-42FD-8830-83030244888A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98AE8D49-531B-42FD-8830-83030244888A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{98AE8D49-531B-42FD-8830-83030244888A}.Debug|x64.Build.0 = Debug|Any CPU
+		{98AE8D49-531B-42FD-8830-83030244888A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{98AE8D49-531B-42FD-8830-83030244888A}.Debug|x86.Build.0 = Debug|Any CPU
+		{98AE8D49-531B-42FD-8830-83030244888A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98AE8D49-531B-42FD-8830-83030244888A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98AE8D49-531B-42FD-8830-83030244888A}.Release|x64.ActiveCfg = Release|Any CPU
+		{98AE8D49-531B-42FD-8830-83030244888A}.Release|x64.Build.0 = Release|Any CPU
+		{98AE8D49-531B-42FD-8830-83030244888A}.Release|x86.ActiveCfg = Release|Any CPU
+		{98AE8D49-531B-42FD-8830-83030244888A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
