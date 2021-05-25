@@ -5,7 +5,7 @@ namespace RazorPageLayout
 {
     public class ProductService
     {
-        public readonly Dictionary<int, ProductDetails> products = new()
+        public readonly Dictionary<int, ProductDetails> Products = new()
         {
             {1, new ProductDetails("Apple iPod", 200, 50)},
             {2, new ProductDetails("Surface Book", 2200, 10)},
@@ -14,7 +14,7 @@ namespace RazorPageLayout
 
         public ProductDetails GetProduct(int productId)
         {
-            return products.TryGetValue(productId, out var product) ? product : null;
+            return Products.TryGetValue(productId, out var product) ? product : null;
         }
 
         public void UpdateProduct(int id, string newName, decimal newSellPrice)
