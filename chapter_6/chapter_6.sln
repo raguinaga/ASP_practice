@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBinding", "ListBinding\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataValidation", "DataValidation\DataValidation.csproj", "{00E57823-FB1A-4938-9D0F-C40436DCABC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverterValidated", "CurrencyConverterValidated\CurrencyConverterValidated.csproj", "{3AE2AB99-6E4D-4F46-89F5-A79A365B95D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,5 +102,17 @@ Global
 		{00E57823-FB1A-4938-9D0F-C40436DCABC7}.Release|x64.Build.0 = Release|Any CPU
 		{00E57823-FB1A-4938-9D0F-C40436DCABC7}.Release|x86.ActiveCfg = Release|Any CPU
 		{00E57823-FB1A-4938-9D0F-C40436DCABC7}.Release|x86.Build.0 = Release|Any CPU
+		{3AE2AB99-6E4D-4F46-89F5-A79A365B95D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AE2AB99-6E4D-4F46-89F5-A79A365B95D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AE2AB99-6E4D-4F46-89F5-A79A365B95D0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3AE2AB99-6E4D-4F46-89F5-A79A365B95D0}.Debug|x64.Build.0 = Debug|Any CPU
+		{3AE2AB99-6E4D-4F46-89F5-A79A365B95D0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3AE2AB99-6E4D-4F46-89F5-A79A365B95D0}.Debug|x86.Build.0 = Debug|Any CPU
+		{3AE2AB99-6E4D-4F46-89F5-A79A365B95D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AE2AB99-6E4D-4F46-89F5-A79A365B95D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AE2AB99-6E4D-4F46-89F5-A79A365B95D0}.Release|x64.ActiveCfg = Release|Any CPU
+		{3AE2AB99-6E4D-4F46-89F5-A79A365B95D0}.Release|x64.Build.0 = Release|Any CPU
+		{3AE2AB99-6E4D-4F46-89F5-A79A365B95D0}.Release|x86.ActiveCfg = Release|Any CPU
+		{3AE2AB99-6E4D-4F46-89F5-A79A365B95D0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
