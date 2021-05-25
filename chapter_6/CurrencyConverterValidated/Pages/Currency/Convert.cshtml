@@ -2,18 +2,35 @@
 @model CurrencyConverterValidated.Pages.Currency.Convert
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Convert Currency";
 }
 
 <!DOCTYPE html>
 
 <html>
 <head>
-    <title></title>
 </head>
 <body>
-<div>
-    
-</div>
+<h1>Convert Values</h1>
+<p>Choose the values</p>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Model.CurrencyFrom"></label>
+        <input class="form-control" asp-for="Model.CurrencyFrom"/>
+        <span asp-validation-for="Model.CurrencyFrom"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Model.Quantity"></label>
+        <input class="form-control" asp-for="Model.Quantity" />
+        <span asp-validation-for="Model.Quantity"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Model.CurrencyTo"></label>
+        <input class="form-control" asp-for="Model.CurrencyTo" />
+        <span asp-validation-for="Model.CurrencyTo"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 </body>
 </html>
