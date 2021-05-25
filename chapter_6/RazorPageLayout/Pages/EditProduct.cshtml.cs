@@ -13,11 +13,6 @@ namespace RazorPageLayout.Pages
         [BindProperty]
         public InputModel Input { get; set; }
         
-        public void OnGet()
-        {
-            
-        }
-
         public IActionResult OnGet(int id)
         {
             var product = productService.GetProduct(id);
