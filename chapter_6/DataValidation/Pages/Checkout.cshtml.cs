@@ -14,8 +14,10 @@ namespace DataValidation.Pages
 
         public IActionResult OnPost()
         {
+            // Check for validity right off the bat
             if (!ModelState.IsValid)
             {
+                // re-display page with errors if model fails validation checks
                 return Page();
             }
 
