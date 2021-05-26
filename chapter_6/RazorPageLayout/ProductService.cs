@@ -25,7 +25,8 @@ namespace RazorPageLayout
                 return;
             }
 
-            _ = product with {Name = newName, SellPrice = newSellPrice};
+            product.SellPrice = newSellPrice;
+            product.Name = newName;
         }
     }
 }
