@@ -1,19 +1,10 @@
-@page
+@page "{username}"
 @model ManageUsers.Pages.ViewUsers
 
 @{
-    Layout = null;
+    ViewData["Title"] = "View User";
 }
 
-<!DOCTYPE html>
+<h2>@ViewData["Title"]</h2>
 
-<html>
-<head>
-    <title></title>
-</head>
-<body>
-<div>
-    
-</div>
-</body>
-</html>
+<h3>@Model.Username</h3>
