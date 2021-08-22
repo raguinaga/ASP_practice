@@ -1,4 +1,4 @@
-
+// New web hosting apis using top-level statements
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
