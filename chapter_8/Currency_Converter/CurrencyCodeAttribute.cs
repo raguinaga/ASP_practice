@@ -1,4 +1,4 @@
-﻿namespace CurrencyConverter
+﻿namespace Currency_Converter
 {
     using System.ComponentModel.DataAnnotations;
     using System.Linq;
