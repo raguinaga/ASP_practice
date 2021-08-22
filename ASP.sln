@@ -1,51 +1,51 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.6.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter_2", "chapter_2", "{98D1D846-E07A-422E-B4EE-1FFF347F0E6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp1", "chapter_2\WebApp1\WebApp1.csproj", "{97B4037C-774E-48B7-93BE-E129E893BA1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp1", "chapter_2\WebApp1\WebApp1.csproj", "{97B4037C-774E-48B7-93BE-E129E893BA1E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter_3", "chapter_3", "{39BE0BB5-8CAB-4FDB-9D6D-69A86F3B0D93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoldingPage", "chapter_3\HoldingPage\HoldingPage.csproj", "{C25CC3A6-1B00-4510-B31D-606C13B12393}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HoldingPage", "chapter_3\HoldingPage\HoldingPage.csproj", "{C25CC3A6-1B00-4510-B31D-606C13B12393}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticFiles", "chapter_3\StaticFiles\StaticFiles.csproj", "{ACBF5968-D84D-44A1-B401-4ED35DD07693}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticFiles", "chapter_3\StaticFiles\StaticFiles.csproj", "{ACBF5968-D84D-44A1-B401-4ED35DD07693}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevExceptionPage", "chapter_3\DevExceptionPage\DevExceptionPage.csproj", "{B937F2CD-B632-4A13-893B-3B20D31D901B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevExceptionPage", "chapter_3\DevExceptionPage\DevExceptionPage.csproj", "{B937F2CD-B632-4A13-893B-3B20D31D901B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleRazorPage", "chapter_3\SimpleRazorPage\SimpleRazorPage.csproj", "{E6A64DE0-4D93-4958-9B39-1769D2FD8562}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleRazorPage", "chapter_3\SimpleRazorPage\SimpleRazorPage.csproj", "{E6A64DE0-4D93-4958-9B39-1769D2FD8562}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatusCodePages", "chapter_3\StatusCodePages\StatusCodePages.csproj", "{B7608D21-2DCF-4939-A077-768F1082B6BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatusCodePages", "chapter_3\StatusCodePages\StatusCodePages.csproj", "{B7608D21-2DCF-4939-A077-768F1082B6BA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter_5", "chapter_5", "{E634FF6E-FB0E-428D-B953-FCD854BE960E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangingConventions", "chapter_5\ChangingConventions\ChangingConventions.csproj", "{E095AF26-5DC4-488A-84DE-79F5EDE884E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangingConventions", "chapter_5\ChangingConventions\ChangingConventions.csproj", "{E095AF26-5DC4-488A-84DE-79F5EDE884E9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter_6", "chapter_6", "{AFBF3484-F35C-4CF2-AA17-86CF4ABF55F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "chapter_6\ToDoList\ToDoList.csproj", "{86030E1E-744A-4EC5-BCB8-DE6CD7B6F5D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoList", "chapter_6\ToDoList\ToDoList.csproj", "{86030E1E-744A-4EC5-BCB8-DE6CD7B6F5D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditProduct", "chapter_6\EditProduct\EditProduct.csproj", "{50BD9761-EE21-4594-A59F-E6D1B7544A24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EditProduct", "chapter_6\EditProduct\EditProduct.csproj", "{50BD9761-EE21-4594-A59F-E6D1B7544A24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorBinding", "chapter_6\CalculatorBinding\CalculatorBinding.csproj", "{B96E88BA-5D60-4B67-993F-B9ADC7491851}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorBinding", "chapter_6\CalculatorBinding\CalculatorBinding.csproj", "{B96E88BA-5D60-4B67-993F-B9ADC7491851}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataValidation", "chapter_6\DataValidation\DataValidation.csproj", "{B6433FFA-F49F-47F3-AECC-394937BDAF5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataValidation", "chapter_6\DataValidation\DataValidation.csproj", "{B6433FFA-F49F-47F3-AECC-394937BDAF5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverterValidated", "chapter_6\CurrencyConverterValidated\CurrencyConverterValidated.csproj", "{D90D531C-46AB-42CE-8EA5-BADE9F29E608}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyConverterValidated", "chapter_6\CurrencyConverterValidated\CurrencyConverterValidated.csproj", "{D90D531C-46AB-42CE-8EA5-BADE9F29E608}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPageLayout", "chapter_6\RazorPageLayout\RazorPageLayout.csproj", "{D846655F-6C0F-4891-8371-940031B0EDB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPageLayout", "chapter_6\RazorPageLayout\RazorPageLayout.csproj", "{D846655F-6C0F-4891-8371-940031B0EDB3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter_7", "chapter_7", "{C199C03F-921C-4077-BCD5-6612D19DC724}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageUsers", "chapter_7\ManageUsers\ManageUsers.csproj", "{6802FDBB-B66E-4588-B84F-3C907EEA3D63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManageUsers", "chapter_7\ManageUsers\ManageUsers.csproj", "{6802FDBB-B66E-4588-B84F-3C907EEA3D63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "chapter_7\ToDoList\ToDoList.csproj", "{ABB77D5D-197B-4D04-9D22-4B84620EE813}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoList", "chapter_7\ToDoList\ToDoList.csproj", "{ABB77D5D-197B-4D04-9D22-4B84620EE813}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter_8", "chapter_8", "{DEFD0DB1-32AC-4537-B3E2-87A91E71E9BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Currency_Converter", "chapter_8\Currency_Converter\Currency_Converter.csproj", "{149CED89-023C-412E-A125-F399D51747E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Currency_Converter", "chapter_8\Currency_Converter\Currency_Converter.csproj", "{149CED89-023C-412E-A125-F399D51747E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,9 +55,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{97B4037C-774E-48B7-93BE-E129E893BA1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -253,6 +250,9 @@ Global
 		{149CED89-023C-412E-A125-F399D51747E8}.Release|x86.ActiveCfg = Release|Any CPU
 		{149CED89-023C-412E-A125-F399D51747E8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{97B4037C-774E-48B7-93BE-E129E893BA1E} = {98D1D846-E07A-422E-B4EE-1FFF347F0E6C}
 		{C25CC3A6-1B00-4510-B31D-606C13B12393} = {39BE0BB5-8CAB-4FDB-9D6D-69A86F3B0D93}
@@ -270,5 +270,8 @@ Global
 		{6802FDBB-B66E-4588-B84F-3C907EEA3D63} = {C199C03F-921C-4077-BCD5-6612D19DC724}
 		{ABB77D5D-197B-4D04-9D22-4B84620EE813} = {C199C03F-921C-4077-BCD5-6612D19DC724}
 		{149CED89-023C-412E-A125-F399D51747E8} = {DEFD0DB1-32AC-4537-B3E2-87A91E71E9BB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {186BC2DE-F50D-4286-B477-D230C739402B}
 	EndGlobalSection
 EndGlobal
