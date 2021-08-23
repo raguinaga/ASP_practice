@@ -9,6 +9,7 @@
 
 <form method="post">
 	<div class="form-group">
+		<!-- ASP-For on labels generates the captions on labels -->
 		<label asp-for="Input.CurrencyFrom"></label>
 		<select class="form-control dropdown" asp-for="Input.CurrencyFrom" asp-items="Model.CurrencyCodes">
 			<option value=""></option>
@@ -17,6 +18,7 @@
 	</div>
 	<div class="form-group">
         <label asp-for="Input.Quantity"></label>
+		<!-- ASP-For on inputs generates the correct type, value, name and validation attributes -->
         <input class="form-control" asp-for="Input.Quantity" />
         <span asp-validation-for="Input.Quantity" class="text-danger"></span>
     </div>
