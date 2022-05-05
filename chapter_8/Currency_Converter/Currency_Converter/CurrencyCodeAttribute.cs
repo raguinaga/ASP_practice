@@ -14,7 +14,7 @@ namespace Currency_Converter
 
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
-            if (value is not string code || !this.allowedCodes.Contains(code))
+            if (value is not string code || !allowedCodes.Contains(code))
             {
                 return new ValidationResult("Not a valid currency code");
             }

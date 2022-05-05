@@ -1,7 +1,4 @@
 ﻿namespace PageHandlers
 {
-    public class Product
-    {
-        public string Name { get; set; }
-    }
+    public record struct Product(string Name);
 }

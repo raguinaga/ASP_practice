@@ -5,7 +5,7 @@ namespace PageHandlers
 {
     public class SearchService
     {
-        public static readonly List<Product> items = new()
+        private static readonly List<Product> Items = new()
         {
             new Product {Name = "iPad"},
             new Product {Name = "iPod"},
@@ -14,10 +14,10 @@ namespace PageHandlers
             new Product {Name = "Mac Mini"},
         };
 
-        public List<Product> SearchProducts(string term)
+        public static List<Product> SearchProducts(string term)
         {
             // filter by provided category
-            return items.Where(x => x.Name.Contains(term)).ToList();
+            return Items.Where(x => x.Name.Contains(term)).ToList();
         }
     }
 }

@@ -7,9 +7,9 @@ namespace PageHandlers.Pages
 {
     public class Search : PageModel
     {
-        /* Sear service is provided to SearchModel for use in page handlers */ 
-        private readonly SearchService searchService;
-        public Search(SearchService service) => this.searchService = service;
+        /* Search service is provided to SearchModel for use in page handlers */ 
+        private readonly SearchService _searchService;
+        public Search(SearchService service) => _searchService = service;
         
         /* Any properties decorated with BindProperty attribute will be model
          * bound */
@@ -30,9 +30,9 @@ namespace PageHandlers.Pages
             // ModelState.IsValid 
             if (!ModelState.IsValid)
             {
-                return RedirectToPage();
+                return RedirectToPage("/Error");
             }
-            Results = this.searchService.SearchProducts(Input.SearchTerm);
+            Results = SearchService.SearchProducts(Input.SearchTerm);
             return Page();
         }
         

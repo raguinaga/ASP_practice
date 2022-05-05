@@ -5,6 +5,8 @@ VisualStudioVersion = 16.6.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangingConventions", "ChangingConventions\ChangingConventions.csproj", "{6A544FC4-55EC-4A69-99E7-77D5A9B6D753}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingExample", "RoutingExample\RoutingExample.csproj", "{871E4E72-F9BA-4772-A7BF-CCCBB3263BE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{6A544FC4-55EC-4A69-99E7-77D5A9B6D753}.Release|x64.Build.0 = Release|Any CPU
 		{6A544FC4-55EC-4A69-99E7-77D5A9B6D753}.Release|x86.ActiveCfg = Release|Any CPU
 		{6A544FC4-55EC-4A69-99E7-77D5A9B6D753}.Release|x86.Build.0 = Release|Any CPU
+		{871E4E72-F9BA-4772-A7BF-CCCBB3263BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{871E4E72-F9BA-4772-A7BF-CCCBB3263BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{871E4E72-F9BA-4772-A7BF-CCCBB3263BE7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{871E4E72-F9BA-4772-A7BF-CCCBB3263BE7}.Debug|x64.Build.0 = Debug|Any CPU
+		{871E4E72-F9BA-4772-A7BF-CCCBB3263BE7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{871E4E72-F9BA-4772-A7BF-CCCBB3263BE7}.Debug|x86.Build.0 = Debug|Any CPU
+		{871E4E72-F9BA-4772-A7BF-CCCBB3263BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{871E4E72-F9BA-4772-A7BF-CCCBB3263BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{871E4E72-F9BA-4772-A7BF-CCCBB3263BE7}.Release|x64.ActiveCfg = Release|Any CPU
+		{871E4E72-F9BA-4772-A7BF-CCCBB3263BE7}.Release|x64.Build.0 = Release|Any CPU
+		{871E4E72-F9BA-4772-A7BF-CCCBB3263BE7}.Release|x86.ActiveCfg = Release|Any CPU
+		{871E4E72-F9BA-4772-A7BF-CCCBB3263BE7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
